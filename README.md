@@ -24,7 +24,7 @@ I love solving complex problems with clean and efficient code. Whether it's opti
 
 ### 📊 Stats
 
-![Forrest's GitHub stats](https://github-readme-stats.vercel.app/api?username=forrestknight&show_icons=true&theme=gruvbox)
+![Forrest's GitHub stats](https://github-readme-stats.vercel.app/api?username=MattiYaqoob&show_icons=true&theme=gruvbox)
 
 
 #
