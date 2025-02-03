@@ -2,6 +2,7 @@
 I'm a Full-Stack Developer and Java Developer passionate about building scalable, high-performance applications. I specialize in designing and developing robust backend systems and creating dynamic, user-friendly front-end experiences.
 
 🚀 About Me
+<br/>
 I love solving complex problems with clean and efficient code. Whether it's optimizing database queries or crafting seamless UI/UX experiences, I always strive for excellence.
 ---
 
