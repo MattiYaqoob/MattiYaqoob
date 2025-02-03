@@ -21,8 +21,8 @@ I love solving complex problems with clean and efficient code. Whether it's opti
 <img align="left" alt="Node" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
 <br/>
 
-<br>
 ---
+
 <div align=center>
   <img width=390 src="https://github-readme-streak-stats-salesp07.vercel.app/?user=salesp07&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
   <img width=390 src="https://github-readme-stats-salesp07.vercel.app/api?username=MattiYaqoob&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
