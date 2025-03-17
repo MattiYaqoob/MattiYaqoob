@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi There 👋
 I'm a Full-Stack Developer and Java Developer passionate about building scalable, high-performance applications. I specialize in designing and developing robust backend systems and creating dynamic, user-friendly front-end experiences.
 
 ## About Me 🚀
