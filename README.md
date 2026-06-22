@@ -1,57 +1,126 @@
-## 👁️ Hi There 👋
-
-I'm a **Full-Stack Developer** and **Java Developer** passionate about building scalable, high-performance applications.  
-I specialize in designing and developing robust backend systems and creating dynamic, user-friendly front-end experiences.
+# 👁️ MATTI ALHAYALI  
+## SOFTWARE DEVELOPER
 
 ---
 
-## 🚀 About Me
+## 👤 PROFILE
 
-I love solving complex problems with clean and efficient code.  
-Whether it's optimizing database queries, building APIs, or crafting seamless UI/UX experiences, I always strive for excellence.
+Motivated **Full-Stack Developer** with experience building scalable web applications using  
+**Java, JavaScript, React, Node.js, Next.js, and Spring Boot**.
 
-I also work with **AI systems** and **Node.js backend development** to build modern intelligent applications.
+Skilled in database management (**MySQL, MongoDB**), RESTful API development, and Agile (Scrum) workflows.
 
----
-
-## 🧠 Current Focus
-
-- ⚡ Building scalable backend systems with **Java & Spring Boot**
-- 🌐 Full-stack web development (React + Node.js)
-- 🤖 Exploring **AI integrations with Node.js**
-- ☁️ Working with APIs, microservices & cloud systems
+Proficient with DevOps tools like **Docker, Git, CI/CD pipelines**, and passionate about clean code, modular architecture, and user-friendly UI/UX design.
 
 ---
 
-## 🧰 Languages and Tools
+## 💼 EXPERIENCE
 
+### Fullstack Developer
+**TH1NG (2022 – 2025)**
+
+- Built and maintained scalable full-stack applications using **TypeScript, Node.js, Next.js, React, Java, SQL, Supabase, Docker**
+- Designed and customized admin dashboards to improve business operations
+- Developed CRM systems (customers, offers, orders, e-signing workflows)
+- Worked in Agile teams (sprints, stand-ups, code reviews)
+- Optimized backend performance and database queries
+- Applied clean code principles & modular architecture
+
+---
+
+### Fullstack Developer
+**Klarr (2022)**
+
+- Developed full-stack web apps using **Next.js & Node.js**
+- Collaborated in Agile teams (frontend + backend features)
+- Used Docker for development & deployment
+- Improved UI/UX experience
+- Worked with GitHub Actions CI/CD pipelines
+
+---
+
+## 🚀 PROJECTS
+
+- 🛒 **E-commerce App** — Java, React, JWT, REST APIs, automated testing
+- 🍕 **Pizzeria Website** — React-based ordering system with optimized UX
+- 💬 **Team Collaboration Platform** — Chat, tasks, roles (30% productivity boost)
+- 🔐 **2FA Authentication System** — TOTP, email verification, secure sessions
+- 🌐 **Portfolio Websites** — Vite, TypeScript, responsive UI/UX
+
+---
+
+## 🧰 LANGUAGES & TOOLS
+
+### 💻 Languages & Frameworks
 <p>
-<img alt="Java" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
-<img alt="Spring" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"/>
-<img alt="JavaScript" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"/>
-<img alt="TypeScript" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"/>
-<img alt="React" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
-<img alt="NodeJS" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
-<img alt="HTML5" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"/>
-<img alt="CSS3" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"/>
-<img alt="Git" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
-<img alt="GitHub" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
-<img alt="Next.js" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40"/>
 </p>
 
 ---
 
-## 🤖 AI & Node.js
+### 🗄️ Databases
+<p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40"/>
+</p>
 
-- Node.js APIs for AI systems
-- Integration with AI models (Chatbots, automation)
-- Building intelligent backend services
-- Real-time data processing
+---
+
+### ⚙️ DevOps & Tools
+<p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="40"/>
+</p>
 
 ---
 
-## 📫 Contact
-
-Feel free to connect and collaborate on exciting projects!
+### ☁️ Concepts
+- REST APIs
+- Agile (Scrum)
+- OOP
+- MVC Architecture
+- Clean Code
+- UI/UX Design
+- CI/CD Pipelines
+- DevOps Practices
 
 ---
+
+## 🎓 EDUCATION
+
+**Teknikhögskolan, Sweden**
+
+Fullstack Development, Databases, OOP, and Agile methodologies.  
+Hands-on experience in building full-stack applications, APIs, and scalable systems.
+
+---
+
+## 🌍 LANGUAGES
+
+- Arabic 🇸🇦  
+- English 🇬🇧  
+- Swedish 🇸🇪  
+
+---
+
+## 📫 CONTACT
+
+- 📍 Stockholm, Sweden  
+- 📧 Email: mati@gmail.com *(replace if needed)*  
+- 📱 Phone: 0739355822  
+
+---
+
+## ⚡ NOTE
+
+Always building clean, scalable, and modern software systems.
