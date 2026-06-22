@@ -1,30 +1,190 @@
-## Hi There 👋
-I'm a Full-Stack Developer and Java Developer passionate about building scalable, high-performance applications. I specialize in designing and developing robust backend systems and creating dynamic, user-friendly front-end experiences.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin:0;
+  background:#000;
+  overflow:hidden;
+}
 
-## About Me 🚀
+.eye {
+  position:absolute;
+  top:40px;
+  left:50%;
+  transform:translateX(-50%);
+  width:180px;
+  height:100px;
+}
 
-I love solving complex problems with clean and efficient code. Whether it's optimizing database queries or crafting seamless UI/UX experiences, I always strive for excellence.
----
+.iris {
+  position:absolute;
+  width:55px;
+  height:55px;
+  background:#ff2200;
+  border-radius:50%;
+  box-shadow:
+  0 0 20px red,
+  0 0 60px orange,
+  0 0 100px red;
+  top:22px;
+  left:62px;
+  transition:0.5s;
+}
 
-### 🧰 Languages and Tools
-<img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
-<img align="left" alt="Spring" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
-<img align="left" alt="TypeScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
-<img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-<img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-<img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
-<img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
-<img align="left" alt="React" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-<img align="left" alt="NodeJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-<img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-<img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
-<img align="left" alt="Next" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
-<img align="left" alt="Node" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
-<br/>
+.eye-shape {
+  width:180px;
+  height:100px;
+  border-radius:100% 0;
+  background:#fff;
+  transform:rotate(45deg);
+  opacity:.15;
+}
 
 
----
+.point {
+  position:absolute;
+  width:10px;
+  height:10px;
+  background:white;
+  border-radius:50%;
+  box-shadow:
+  0 0 20px white,
+  0 0 50px red;
+}
+
+
+.explosion {
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background:red;
+  animation:boom .8s forwards;
+}
+
+
+@keyframes boom {
+  to {
+    width:120px;
+    height:120px;
+    opacity:0;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+
+<div class="eye">
+<div class="eye-shape"></div>
+<div class="iris"></div>
+</div>
+
+
+<script>
+
+const iris=document.querySelector(".iris");
+
+
+function moveEye(x,y){
+
+let eyeX=window.innerWidth/2;
+let eyeY=90;
+
+
+let angle=Math.atan2(
+y-eyeY,
+x-eyeX
+);
+
+
+let distance=30;
+
+
+iris.style.left=
+62+Math.cos(angle)*distance+"px";
+
+iris.style.top=
+22+Math.sin(angle)*distance+"px";
+
+}
+
+
+
+function createPoint(){
+
+let x=Math.random()*window.innerWidth;
+let y=180+Math.random()*(window.innerHeight-200);
+
+
+let p=document.createElement("div");
+
+p.className="point";
+
+p.style.left=x+"px";
+p.style.top=y+"px";
+
+
+document.body.appendChild(p);
+
+
+
+setTimeout(()=>{
+
+moveEye(x,y);
+
+
+p.className="explosion";
+
+
+setTimeout(()=>{
+
+p.remove();
+
+},800);
+
+
+},600);
+
+
+}
 
 
 
 
+function search(){
+
+let x=Math.random()*window.innerWidth;
+let y=Math.random()*window.innerHeight;
+
+
+moveEye(x,y);
+
+
+}
+
+
+
+setInterval(()=>{
+
+createPoint();
+
+},2500);
+
+
+
+setInterval(()=>{
+
+search();
+
+},1000);
+
+
+</script>
+
+
+</body>
+</html>
