@@ -45,14 +45,3 @@ Docker • Git • GitHub Actions • Linux • Postman
 - DevOps & CI/CD  
 - Clean Code & Maintainability  
 
----
-
-## 🌍 Languages
-
-Arabic • English • Swedish  
-
----
-
-## 📍 Location
-
-Stockholm, Sweden
