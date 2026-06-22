@@ -1,5 +1,5 @@
 # 👋 MATTI ALHAYALI  
-### Senior Software Developer
+### Software Developer
 
 ---
 
