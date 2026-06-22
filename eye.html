@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    margin:0;
+    background:black;
+    overflow:hidden;
+}
+
+.eye {
+    position:absolute;
+    top:40px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.iris {
+    width:70px;
+    height:70px;
+    background:red;
+    border-radius:50%;
+    box-shadow:
+    0 0 20px red,
+    0 0 60px orange,
+    0 0 100px red;
+
+    position:absolute;
+    left:65px;
+    top:25px;
+
+    transition:.5s;
+}
+
+.point {
+    position:absolute;
+    width:12px;
+    height:12px;
+    background:white;
+    border-radius:50%;
+    box-shadow:0 0 30px white;
+}
+
+
+.explosion {
+    animation:boom .8s forwards;
+    background:red;
+}
+
+
+@keyframes boom {
+
+    from {
+        transform:scale(1);
+    }
+
+    to {
+        transform:scale(15);
+        opacity:0;
+    }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<div class="eye">
+    👁️
+    <div class="iris"></div>
+</div>
+
+
+<script>
+
+let iris=document.querySelector(".iris");
+
+
+function look(x,y){
+
+let cx=innerWidth/2;
+let cy=80;
+
+
+let angle=Math.atan2(
+y-cy,
+x-cx
+);
+
+
+iris.style.left=
+65+Math.cos(angle)*30+"px";
+
+
+iris.style.top=
+25+Math.sin(angle)*30+"px";
+
+}
+
+
+
+function createExplosion(){
+
+let x=Math.random()*innerWidth;
+let y=200+Math.random()*(innerHeight-200);
+
+
+let p=document.createElement("div");
+
+p.className="point";
+
+p.style.left=x+"px";
+p.style.top=y+"px";
+
+
+document.body.appendChild(p);
+
+
+setTimeout(()=>{
+
+look(x,y);
+
+p.classList.add("explosion");
+
+
+},700);
+
+
+setTimeout(()=>{
+
+p.remove();
+
+},1500);
+
+
+}
+
+
+
+setInterval(()=>{
+
+createExplosion();
+
+},2500);
+
+
+
+</script>
+
+
+</body>
+</html>
